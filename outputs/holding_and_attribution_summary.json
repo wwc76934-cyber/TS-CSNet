@@ -1,0 +1,16 @@
+{
+  "Avg_Num_Holdings": 415.6304347826087,
+  "Min_Num_Holdings": 385.0,
+  "Max_Num_Holdings": 435.0,
+  "Avg_Zeroed_Tail_Stocks": 83.33043478260869,
+  "Avg_Top10_Weight": 0.0812488029852202,
+  "Avg_Max_Single_Weight": 0.010008371209767468,
+  "Avg_Effective_N": 270.4946972990308,
+  "Avg_Active_Share": 0.3008299904981755,
+  "Ann_Gross_Overweight_Contrib": 0.0072969607830674806,
+  "Ann_Gross_Underweight_Contrib": 0.013129975222835865,
+  "Ann_Gross_Zeroed_Tail_Contrib": 0.012051120306922517,
+  "Ann_Brinson_Allocation": 0.0038865308255590985,
+  "Ann_Brinson_Selection": 0.02357942511929906,
+  "Ann_Brinson_Interaction": -0.007039019938954795
+}

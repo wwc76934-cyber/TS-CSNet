@@ -1,0 +1,19 @@
+{
+  "Signal_Date": "2026-11-24",
+  "Initial_Capital_RMB": 10000000.0,
+  "Invested_Market_Value_RMB": 9940037.0,
+  "Est_Buy_Commission_Slippage_RMB": 9940.037,
+  "Cash_Reserve_RMB": 50022.963,
+  "Cash_Ratio": 0.0050022963,
+  "Num_Universe_Scored": 500,
+  "Num_Held_Stocks": 422,
+  "Num_Zeroed_Or_Unbuyable": 78,
+  "Num_Unbuyable_Filtered": 0,
+  "Top10_Weight": 0.105489,
+  "Top20_Weight": 0.1663758,
+  "Max_Single_Weight": 0.018693,
+  "Min_Held_Position_RMB": 491.0,
+  "Mean_Gate_Temporal_All": 0.4477823522090912,
+  "Mean_Gate_Temporal_Top20": 0.44539156556129456,
+  "CSI500_Index_Close": 6112.4347
+}
