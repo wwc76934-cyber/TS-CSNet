@@ -1,13 +1,15 @@
-# TS-CSNet: 时序-截面双视角神经网络与无偏排序损失在中证 500 指数增强中的实证研究
+# 中证500量价与基本面融合增强策略（TS-CSNet 实现与实证）
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](#) [![PyTorch CPU](https://img.shields.io/badge/PyTorch-CPU%20Lightweight-orange.svg)](#) [![Tests](https://img.shields.io/badge/Unit%20Tests-4%2F4%20Passed-brightgreen.svg)](#)
 
-本项目面向**北京大学量化投资课程实践与中期/结项答辩**，从 0 到 1 自主构建了一套轻量级端到端深度学习选股与指数增强系统 **`TS-CSNet`（Temporal-CrossSectional Network，14,977 参数，纯 CPU 友好）**。项目基于严格 Point-in-Time（PIT）中证 500 历史周度成分股与日频行情/估值数据（`2014–2025` 历史回测，`2026-11-24` 实时模拟交易建仓），完成了 9 年样本外递进消融、深度归因/适用性分析以及 1,000 万元实盘合规模拟组合落地。
+本项目面向**北京大学量化投资课程实践与中期/结项汇报**，从 0 到 1 构建并迭代了**「中证500量价与基本面融合增强策略」**（底层选股打分引擎为自建轻量级时序-截面排序模型 `TS-CSNet`，14,977 参数，纯 CPU 友好；组合配置采用基准锚定 `Soft-Tilt` 软倾斜方案）。项目基于严格 Point-in-Time（PIT）中证 500 历史周度成分股与日频行情/估值数据（`2014–2025` 历史回测，`2026-11-24` 实时模拟建仓），完成了 9 年样本外递进消融、深度持仓/Brinson/风格归因、市场适用性分析以及 1,000 万元实盘合规模拟建仓计划。
 
-> **核心文档直达**：
-> - 📄 [课程项目中期进展报告（含持仓/Brinson/风格归因、适用性分析与 2026-11-24 模拟交易清单）](docs/MIDTERM_PROGRESS_REPORT.md)
-> - 🎤 [课程答辩讲解手册（含 10 分钟 PPT 框架与高频追问回答）](docs/DEFENSE_GUIDE.md)
-> - 📊 [2026-11-24 实时模拟交易全量建仓清单（422 只标的，100 股/科创板 200 股合规）](outputs/paper_portfolio_live_full.csv)
+> **核心汇报文档直达**：
+> - 📄 [课程项目中期进展报告（金融逻辑主线 · 15%/25%/40%/20% 完整版）](docs/MIDTERM_PROGRESS_REPORT.md)
+> - 🎞️ [中期汇报配套 PPT（14 页北大学术简约风 · PowerPoint/WPS 原生可编辑）](docs/中证500量价与基本面融合增强策略_中期汇报PPT.pptx)
+> - 🎨 [PPT 视觉设计规范（Spec-First）](docs/ppt_design_spec.md)
+> - 🎤 [课程答辩讲解手册（高频追问回答）](docs/DEFENSE_GUIDE.md)
+> - 📊 [2026-11-24 模拟交易全量建仓清单（422 只标的，主板 100 股/科创板 ≥200 股合规）](outputs/paper_portfolio_live_full.csv)
 
 ---
 

@@ -8,6 +8,7 @@ venv/
 
 # Large local data caches & raw downloaded snapshots (regenerable via scripts/01 & scripts/05)
 data/
+figures/ppt_previews/
 
 # OS / IDE clutter
 .DS_Store
