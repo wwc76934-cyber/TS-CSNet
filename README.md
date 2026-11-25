@@ -6,8 +6,8 @@
 
 > **核心汇报文档直达**：
 > - 📄 [课程项目中期进展报告（金融逻辑主线 · 15%/25%/40%/20% 完整版）](docs/MIDTERM_PROGRESS_REPORT.md)
-> - 🎞️ [中期汇报配套 PPT（14 页北大学术简约风 · PowerPoint/WPS 原生可编辑）](docs/中证500量价与基本面融合增强策略_中期汇报PPT.pptx)
-> - 🎨 [PPT 视觉设计规范（Spec-First）](docs/ppt_design_spec.md)
+> - 🎞️ [中期汇报配套 PPT（26 页北大学术路演风 · 独立高清大图排版 · PowerPoint/WPS 原生可编辑）](docs/中证500量价与基本面融合增强策略_中期汇报PPT.pptx)
+> - 🎨 [PPT 视觉设计规范（Spec-First 26 页版式契约）](docs/ppt_design_spec.md)
 > - 🎤 [课程答辩讲解手册（高频追问回答）](docs/DEFENSE_GUIDE.md)
 > - 📊 [2026-11-24 模拟交易全量建仓清单（422 只标的，主板 100 股/科创板 ≥200 股合规）](outputs/paper_portfolio_live_full.csv)
 
@@ -73,13 +73,17 @@ tscs-alpha/
     04_attribution_and_applicability.py # 深度持仓/Brinson/风格归因与适用性分析（图 5-7）
     05_fetch_live_paper_data.py         # BaoStock 拉取最新中证 500 实盘快照
     06_generate_paper_portfolio.py      # 生产版 TS-CSNet 实盘打分与 1000 万合规建仓（图 8）
+    07_build_midterm_pptx.py            # 生成 26 页原生可编辑中期汇报 PPTX 与预览图
+    08_make_slide_charts.py             # 生成 17 张大尺寸单面板 PPT 专属高清图（figures/slides/）
   tests/
     test_tscs_alpha.py                  # 离线单元测试（4/4 通过）
   docs/
     MIDTERM_PROGRESS_REPORT.md          # 课程项目中期进展报告
+    中证500量价与基本面融合增强策略_中期汇报PPT.pptx # 26 页中期汇报配套 PPT
+    ppt_design_spec.md                  # 26 页 PPT 视觉设计规范
     DEFENSE_GUIDE.md                    # 课程答辩讲解手册
   outputs/                              # 完整实验指标 CSV、净值曲线、生产权重与实盘模拟持仓清单
-  figures/                              # 8 张高清报告图表
+  figures/                              # 报告综合图（00-08）与 PPT 单面板高清大图（slides/）
 ```
 
 ---
